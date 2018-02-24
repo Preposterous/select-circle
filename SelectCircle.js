@@ -10,7 +10,7 @@ export const SelectCircle = ({
   const outerCircleStyles = [
     SelectCircleStyles.outerCircle,
     {
-      backgroundColor: deselectedColor
+      borderColor: deselectedColor
     },
     style
   ];
@@ -18,7 +18,7 @@ export const SelectCircle = ({
   const innerCircleStyles = [
     SelectCircleStyles.innerCircle,
     {
-      borderColor: deselectedColor
+      backgroundColor: deselectedColor
     }
   ];
 
